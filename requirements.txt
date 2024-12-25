@@ -6,4 +6,4 @@ numpy
 shap
 matplotlib
 ipython
-xgboost
+xgboost 2.1.3
