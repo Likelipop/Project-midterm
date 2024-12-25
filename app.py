@@ -55,6 +55,14 @@ xgb_path = "Model/xgb_model.json"
 xgb_model = XGBClassifier() 
 xgb_model.load_model(xgb_path)
 
+from xgboost import Booster
+
+xgb_model = XGBClassifier()
+booster = Booster()
+booster.load_model('Model/xgb_model.json')
+xgb_model._Booster = booster
+
+
 today = datetime.date.today()
 
 
