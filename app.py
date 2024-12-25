@@ -1,3 +1,13 @@
+# joblib==1.2.0
+# streamlit==1.14.0
+# scikit-learn==1.1.3
+# pandas==1.5.3
+# numpy==1.23.4
+# shap==0.41.0
+# matplotlib==3.6.2
+# ipython@
+# xgboost==1.6.2
+
 import joblib 
 import pandas as pd
 import streamlit as st
