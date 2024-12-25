@@ -1,6 +1,6 @@
 joblib
 streamlit == 1.41.1
-scikit-learn
+scikit-learn == 1.5.2
 pandas
 numpy
 shap
